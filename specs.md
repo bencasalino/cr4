@@ -1,1 +1,1 @@
-add specs and run tests all first! 
+add specs based on all tests that are now passing before making viu=sual part of site! 

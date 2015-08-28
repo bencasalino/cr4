@@ -27,7 +27,28 @@
 
 
 
-  add getters and setters that passed in tests, and begin to add CRUD as you slowly buid out the views folder! 
 
 
+
+
+
+
+
+  did this commit work?!?!?!?!?
+
+
+
+  add getters and setters that passed in tests, and begin to add CRUD as you slowly buid out the views folder!
+
+
+brand
+
+  private $id;
+  private $Brand_name;
+
+
+
+store
+    private $id;
+    private $store_name;
   ?>
