@@ -25,6 +25,7 @@
         }
 
 
+
         // lots of theses tets should be simliar to storetest.php
         function testGetName()
         {
@@ -48,7 +49,7 @@
             //Assert
             $this->assertEquals($new_name, $result);
         }
-        // get id 
+        // get id
         function testGetId()
         {
             //Arrange

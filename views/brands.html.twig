@@ -1,9 +1,9 @@
 <html>
     <head>
-        <title>Brands</title>
+        <title>Brands </title>
     </head>
     <body>
-        <h1>Add a new shoe Brand</h1>
+        <h1>Add a new shoe Brand </h1>
         <form action="/brands" method="post">
             <label for="name">Brand Name here </label>
             <input type="text" name="name" id="name" required>
@@ -15,7 +15,8 @@
             <h4>Brands</h4>
             <ul>
                 {% for brand in brands %}
-                    <li><a href="/brand/{{brand.getId}}">{{brand.getName}}</a></li>
+                    <li>
+                      <a href="/brand/{{brand.getId}}">{{brand.getName}}</a></li>
                 {% endfor %}
             </ul>
         {% endif %}

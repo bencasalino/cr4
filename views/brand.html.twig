@@ -7,7 +7,8 @@
         <h1>{{brand.getName}}</h1>
 
         {% if stores is not empty %}
-            <h3>Stores that sell {{brand.getName}}:</h3>
+
+            <h3>Stores that  sell {{brand.getName}}:</h3>
             <ul>
                 {% for store in stores %}
                     <li>{{store.getName}}
@@ -17,6 +18,7 @@
                     </li>
                 {% endfor %}
             </ul>
+
         {% endif %}
 
         <h4>Add a store that has this brand {{brand.getName}}</h4>

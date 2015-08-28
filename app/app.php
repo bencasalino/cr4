@@ -4,6 +4,8 @@
     require_once __DIR__."/../src/Store.php";
     require_once __DIR__."/../vendor/autoload.php";
 
+
+  
     // needed to use silex
     $app = new Silex\Application();
 
@@ -114,6 +116,7 @@
           return $app['twig']->render("brand.html.twig", array("brand" => $brand,"all_stores" => Store::getAll(), "stores" => $brand->getStores()));
       });
 
+
       // update a new store
       $app->post("/add_stores", function() use ($app) {
           $brand = Brand::find($_POST['brand_id']);
@@ -122,7 +125,8 @@
           return $app['twig']->render("brand.html.twig", array("brand" => $brand,"all_stores" => Store::getAll(), "stores" => $brand->getStores()));
       });
 
-      
+
 // must have at bottom
+
 return $app;
   ?>
