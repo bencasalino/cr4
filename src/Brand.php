@@ -7,10 +7,12 @@
         private $Brand_name;
     }
 
-    //contructor needed???????
-
-
-
+    //contructor
+    function __construct($name, $id = null)
+        {
+            $this->name = $name;
+            $this->id = $id;
+        }
 
         //Getters and Setters
         function getName()
@@ -26,6 +28,18 @@
             return $this->id;
         }
         ///////////////End Getters and Setters//////////////
+
+
+        will need!!!
+        save
+        get stores
+        add a store
+
+
+        static functions
+        get all
+        del all 
+        find ?
 
 
 

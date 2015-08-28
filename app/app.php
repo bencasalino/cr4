@@ -25,30 +25,23 @@
       'twig.path' => __DIR__.'/../views'
   ));
 
+function that point to use index.html.twig
+//CRUD
+app get id stores
+app patch id  if statement!
+app get store id
+
+app get /stores
+app post /stores
+app delete stores
+app add a new store
+
+app post get a new brand?
+app get /brands
+app post brands
+del brands
+get brand id?
 
 
-
-
-
-
-
-
-
-  did this commit work?!?!?!?!?
-
-
-
-  add getters and setters that passed in tests, and begin to add CRUD as you slowly buid out the views folder!
-
-
-brand
-
-  private $id;
-  private $Brand_name;
-
-
-
-store
-    private $id;
-    private $store_name;
+return $app;
   ?>
