@@ -15,7 +15,7 @@ USE shoes; 3.CREATE TABLE stores (id SERIAL PRIMARY KEY, name VARCHAR(255), loca
 
 Technologies Used
 
-PHP, MYSQL, PHPUnit, Silex, Twig, HTML, CSS, Bootstrap
+PHP, MYSQL, PHPUnit, Silex, Twig, HTML, CSS, Bootstrap 3 
 
 Legal
 
